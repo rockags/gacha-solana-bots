@@ -1,5 +1,7 @@
 # ⚡ Solana High-Frequency Gacha Protocol — Quant & Bot Starter Kit
 
+![Solana Gacha Protocol Banner](banner.jpg)
+
 [![Solana Mainnet](https://img.shields.io/badge/Solana-Mainnet--Beta-14f195?style=flat&logo=solana)](https://explorer.solana.com/address/3u6pHbfXqiDJLMxpLtXvUxGiC1Twwo2v9aaHBxo839GM)
 [![RTP 99.8%](https://img.shields.io/badge/RTP-99.8%25-green)](https://gacha-protocol-628421927095.us-central1.run.app)
 [![Provably Fair](https://img.shields.io/badge/Provably%20Fair-HMAC--SHA256-blue)](https://gacha-protocol-628421927095.us-central1.run.app/bots.html)
