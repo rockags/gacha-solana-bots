@@ -33,10 +33,6 @@ ws.on('open', () => {
     playerId: BOT_ID,
     clientSeed: `seed_${BOT_ID}`
   }));
-  ws.send(JSON.stringify({
-    action: 'deposit',
-    amount: 50.00
-  }));
 });
 
 ws.on('message', (raw) => {
@@ -45,8 +41,11 @@ ws.on('message', (raw) => {
 
     if (data.type === 'AUTH_SUCCESS') {
       console.log(`✅ Authenticated! Balance: $${data.balance.toFixed(2)} USD | Pot: $${data.currentPot.toFixed(4)} USD`);
-      // Start rolling
-      ws.send(JSON.stringify({ action: 'open_pack', tier: TIER }));
+      if (data.balance >= 1.00) {
+        ws.send(JSON.stringify({ action: 'open_pack', tier: TIER }));
+      } else {
+        console.log(`ℹ️ Balance is $${data.balance.toFixed(2)}. To play, send SOL to Mainnet Vault: 3u6pHbfXqiDJLMxpLtXvUxGiC1Twwo2v9aaHBxo839GM`);
+      }
     }
 
     if (data.type === 'PACK_RESULT') {
