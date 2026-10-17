@@ -1,0 +1,8 @@
+{
+  "name": "Solana High-Frequency Protocol",
+  "symbol": "HFT",
+  "description": "The official utility token & liquidity engine for the sub-6ms Solana High-Frequency Quantitative Protocol. Provably Fair HMAC-SHA256, 99.8% RTP, and open-source sniper bots.",
+  "image": "https://raw.githubusercontent.com/rockags/gacha-solana-bots/main/banner.jpg",
+  "twitter": "https://x.com/alex26729082",
+  "website": "https://gacha-protocol-628421927095.us-central1.run.app"
+}
