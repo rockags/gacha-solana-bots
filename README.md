@@ -20,12 +20,16 @@ The protocol is an ultra-low latency, micro-friction Provably Fair card-pack ope
 - **Settlement**: Instant on-chain Solana deposits & withdrawals
 - **WebSocket Protocol**: Sub-10ms response time hosted on Google Cloud Run
 
-### Pack Tiers
+### Multi-Tier Hit System & Paytable
 
-| Pack Tier | Price (USD) | Loss Refund | Net Friction | Jackpot Payout |
-| :--- | :--- | :--- | :--- | :--- |
-| **🥉 BRONZE** | **$1.00** | **$0.998** | **$0.002** (0.2%) | **10% of Progressive Pot** + Refund |
-| **🏆 GOLD** | **$10.00** | **$9.980** | **$0.020** (0.2%) | **100% of Progressive Pot** + Refund |
+The protocol features a 3-tier continuous reward distribution so automated bots and algorithms hit frequent profitable bursts while hunting the progressive jackpot:
+
+| Hit Type | Odds | Trigger Condition | Payout (Bronze / Gold) |
+| :--- | :---: | :---: | :--- |
+| **⚡ Micro-Hit** | **1 in 25 (4.0%)** | `roll % 25 == 0` | Refund + Pot Share (Green Profit Spike!) |
+| **💥 Major-Hit** | **1 in 100 (1.0%)** | `roll % 100 == 77` | Refund + 1% to 5% Pot Share |
+| **🏆 Mega Jackpot** | **1 in 1,000 (0.1%)** | `roll == 777` | **10% (Bronze) or 100% (Gold) of Progressive Pot!** |
+| **Standard Pack** | 94.9% | Other | Standard Refund ($0.998 / $9.980) |
 
 ---
 
@@ -46,12 +50,17 @@ The protocol is an ultra-low latency, micro-friction Provably Fair card-pack ope
 pip install websocket-client
 ```
 
-### 2. Run the Sniper Bot
+### 2. Measure Live Latency (Benchmark Mode)
+Test your sub-10ms connection to Google Cloud Run without spending any funds:
 ```bash
-python bot_sniper.py
+python bot_sniper.py --bench
 ```
 
-The bot connects to the WebSocket, requests simulated/real rolls, and monitors the progressive pot.
+### 3. Run the Live Sniper Bot
+```bash
+python bot_sniper.py          # Snipes Bronze $1 packs (10% Pot Share)
+python bot_sniper.py --gold   # Snipes Gold $10 packs (100% Pot Share)
+```
 
 ---
 
