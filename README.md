@@ -14,11 +14,15 @@ Official starter kit and API specification for algorithmic trading bots, high-fr
 
 The protocol is an ultra-low latency, micro-friction Provably Fair quantitative execution engine with a shared on-chain progressive jackpot vault.
 
-- **Theoretical RTP**: **99.8%** (House friction: **0.2%**)
-- **Target Roll for Jackpot**: **`777`** (Range: `0` to `999`, exact 1 in 1,000 odds)
-- **RNG Mechanism**: Cryptographic **HMAC-SHA256** (Provably Fair)
-- **Settlement**: Instant on-chain Solana deposits & withdrawals
-- **WebSocket Protocol**: Sub-10ms response time hosted on Google Cloud Run
+- **Theoretical RTP**: **99.8%** (Base house friction: **0.2%**)
+- **Algorithmic Edge**: **Continuous +EV Spikes** triggered during progressive pot surges
+- **Reward Frequency**:
+  - **⚡ Micro-Hits (4.0% odds — 1 in 25)**: Instant +0.2% to +1% pot share burst
+  - **💥 Major-Hits (1.0% odds — 1 in 100)**: Instant +1% to +5% pot share
+  - **🏆 Mega Jackpot (0.1% odds — 1 in 1,000)**: Takes up to 100% of Progressive Pot
+- **RNG Mechanism**: Cryptographic **HMAC-SHA256** (Provably Fair, pre-committed hashes)
+- **Settlement**: Instant on-chain Solana deposits & programmatic withdrawals
+- **Execution Speed**: **Sub-6ms RTT WebSocket** hosted on Google Cloud Run
 
 ### Multi-Tier Hit System & Paytable
 
