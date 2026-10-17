@@ -1,18 +1,18 @@
-# ⚡ Solana High-Frequency Gacha Protocol — Quant & Bot Starter Kit
+# ⚡ Solana High-Frequency Quantitative Protocol — Quant & Bot Starter Kit
 
-![Solana Gacha Protocol Banner](banner.jpg)
+![Solana Quantitative Protocol Banner](banner.jpg)
 
 [![Solana Mainnet](https://img.shields.io/badge/Solana-Mainnet--Beta-14f195?style=flat&logo=solana)](https://explorer.solana.com/address/3u6pHbfXqiDJLMxpLtXvUxGiC1Twwo2v9aaHBxo839GM)
 [![RTP 99.8%](https://img.shields.io/badge/RTP-99.8%25-green)](https://gacha-protocol-628421927095.us-central1.run.app)
 [![Provably Fair](https://img.shields.io/badge/Provably%20Fair-HMAC--SHA256-blue)](https://gacha-protocol-628421927095.us-central1.run.app/bots.html)
 
-Official starter kit and API specification for algorithmic trading bots, high-frequency quant snipers, and automated players on the **Solana High-Frequency Gacha Protocol**.
+Official starter kit and API specification for algorithmic trading bots, high-frequency quant snipers, and automated strategies on the **Solana High-Frequency Quantitative Protocol**.
 
 ---
 
 ## 🎯 Protocol Overview
 
-The protocol is an ultra-low latency, micro-friction Provably Fair card-pack opening system with a shared on-chain progressive jackpot.
+The protocol is an ultra-low latency, micro-friction Provably Fair quantitative execution engine with a shared on-chain progressive jackpot vault.
 
 - **Theoretical RTP**: **99.8%** (House friction: **0.2%**)
 - **Target Roll for Jackpot**: **`777`** (Range: `0` to `999`, exact 1 in 1,000 odds)

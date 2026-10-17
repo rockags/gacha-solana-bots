@@ -1,7 +1,7 @@
 /**
- * ⚡ HIGH-FREQUENCY GACHA BOT (Node.js Starter Kit)
- * ------------------------------------------------
- * Connects to Solana Gacha Protocol WebSocket and runs rolls at up to 30 TPS.
+ * ⚡ SOLANA QUANT HFT BOT (Node.js Starter Kit)
+ * --------------------------------------------
+ * Connects to Solana Quantitative Protocol WebSocket and executes up to 30 TPS.
  * 
  * Requirements:
  *   npm install ws
@@ -15,7 +15,7 @@ const BOT_ID = `node_trader_${Date.now().toString(36)}`;
 const TIER = 'bronze'; // 'bronze' ($1.00 pack, $0.002 fee) or 'gold' ($10.00 pack, $0.02 fee)
 
 console.log(`\n======================================================`);
-console.log(`🤖 SOLANA GACHA BOT (Node.js High-Frequency Client)`);
+console.log(`🤖 SOLANA QUANT BOT (Node.js High-Frequency Client)`);
 console.log(`- Endpoint : ${SERVER_WS}`);
 console.log(`- Bot ID   : ${BOT_ID}`);
 console.log(`- Pack     : ${TIER.toUpperCase()}`);

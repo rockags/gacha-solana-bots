@@ -1,7 +1,7 @@
 """
-⚡ GACHA QUANT SNIPER BOT v2 (Python Starter Kit)
+⚡ SOLANA QUANT SNIPER BOT v2 (Python Starter Kit)
 --------------------------------------------------
-High-Frequency Trading & Expected Value (+EV) Sniper for Solana Gacha Protocol.
+High-Frequency Trading & Expected Value (+EV) Sniper for Solana Quantitative Protocol.
 
 Features:
 - Sub-10ms WebSocket connection to Google Cloud Run.
@@ -54,7 +54,7 @@ ws_conn = None
 # -------------------------------------------------------------
 def run_latency_benchmark():
     print("\n======================================================")
-    print("⚡ SOLANA GACHA PROTOCOL — LATENCY BENCHMARK ⚡")
+    print("⚡ SOLANA QUANT PROTOCOL — LATENCY BENCHMARK ⚡")
     print(f"- Target Server: {SERVER_WS}")
     print(f"- Pings: 10 rapid round-trip tests")
     print("======================================================\n")
@@ -183,7 +183,7 @@ if __name__ == "__main__":
         run_latency_benchmark()
 
     print("======================================================")
-    print("🎯 SOLANA GACHA QUANT SNIPER BOT v2 (+EV HUNTER) 🎯")
+    print("🎯 SOLANA QUANT SNIPER BOT v2 (+EV HUNTER) 🎯")
     print(f"- Server  : {SERVER_WS}")
     print(f"- Bot ID  : {BOT_ID}")
     print(f"- Target  : Pot >= ${EV_THRESHOLD:.2f} USD (+EV)")
