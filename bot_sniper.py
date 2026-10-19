@@ -281,6 +281,11 @@ def on_close(ws, close_status_code, close_msg):
     time.sleep(3)
 
 if __name__ == "__main__":
+    print("\n" + "="*65)
+    print("🚨 [UPGRADE NOTICE] PROTOCOL v2 RELEASED (Non-Custodial Multi-Table)")
+    print("👉 New Repo & Swarm Kit: https://github.com/rockags/hft-ev-arena-solana")
+    print("="*65 + "\n")
+
     if "--bench" in sys.argv or "-b" in sys.argv:
         run_latency_benchmark()
 

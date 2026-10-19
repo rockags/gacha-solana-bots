@@ -1,4 +1,28 @@
-# ⚡ Solana High-Frequency Quantitative Protocol — Quant & Bot Starter Kit
+# 🚨 PROTOCOL UPGRADE NOTICE: VERSION 2.0 IS LIVE 🚨
+
+> ### ⚡ ATTENTION QUANT DEVELOPERS & BOT RUNNERS:
+> **The protocol has officially upgraded to [hft-ev-arena-solana (v2.0)](https://github.com/rockags/hft-ev-arena-solana)**
+> 
+> Key improvements in v2.0:
+> - 🛡️ **100% Non-Custodial Anchor Smart Contract** (Zero private key custody risk, guaranteed on-chain `withdraw()`).
+> - 📡 **Multi-Table Autonomous Arbitrage** (Flash $0.10, Classic $1.00, Whale $10.00).
+> - 🔄 **Perpetual +EV via Auto-Refuel** (Friction fees automatically refill depleted prize pots).
+> - 💸 **Direct Rakeback Cashback** (20% of all friction returned directly to active bot accounts).
+> 
+> 🔗 **NEW REPOSITORY & ACTIVE SWARM KIT:**  
+> 👉 **[https://github.com/rockags/hft-ev-arena-solana](https://github.com/rockags/hft-ev-arena-solana)**  
+> 
+> Clone and run the upgraded v2 bot kit:
+> ```bash
+> git clone https://github.com/rockags/hft-ev-arena-solana.git
+> cd hft-ev-arena-solana/bot-starter-kit
+> pip install -r requirements.txt
+> python multi_table_sniper.py --demo
+> ```
+
+---
+
+# ⚡ Solana High-Frequency Quantitative Protocol — Quant & Bot Starter Kit (v1 Legacy)
 
 ![Solana Quantitative Protocol Banner](banner.jpg)
 
