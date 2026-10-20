@@ -26,7 +26,7 @@
 
 ![Solana Quantitative Protocol Banner](banner.jpg)
 
-[![Solana Mainnet](https://img.shields.io/badge/Solana-Mainnet--Beta-14f195?style=flat&logo=solana)](https://explorer.solana.com/address/3u6pHbfXqiDJLMxpLtXvUxGiC1Twwo2v9aaHBxo839GM)
+[![Solana Mainnet](https://img.shields.io/badge/Solana-Mainnet--Beta-14f195?style=flat&logo=solana)](https://solscan.io/account/GCCfiWzgd29LuS63rCpBcwD1yko46TY4tsryCiihG9V3)
 [![RTP 99.8%](https://img.shields.io/badge/RTP-99.8%25-green)](https://gacha-protocol-628421927095.us-central1.run.app)
 [![Provably Fair](https://img.shields.io/badge/Provably%20Fair-HMAC--SHA256-blue)](https://gacha-protocol-628421927095.us-central1.run.app/bots.html)
 
@@ -65,7 +65,7 @@ The protocol features a 3-tier continuous reward distribution so automated bots 
 
 - **WebSocket Stream**: `wss://gacha-protocol-628421927095.us-central1.run.app/ws`
 - **REST Stats API**: `https://gacha-protocol-628421927095.us-central1.run.app/api/stats`
-- **Solana Mainnet Vault**: [`3u6pHbfXqiDJLMxpLtXvUxGiC1Twwo2v9aaHBxo839GM`](https://explorer.solana.com/address/3u6pHbfXqiDJLMxpLtXvUxGiC1Twwo2v9aaHBxo839GM)
+- **Solana Mainnet Vault**: [`GCCfiWzgd29LuS63rCpBcwD1yko46TY4tsryCiihG9V3`](https://solscan.io/account/GCCfiWzgd29LuS63rCpBcwD1yko46TY4tsryCiihG9V3)
 - **On-Chain Beacon Tx**: [`Bz99BrEwk89RoJtDCFtRVhuFkEBLF2yShWMpVd8nbUpJCKtnQf1LmmrTcJb79b5NFdqFxhZxaPpKByKohdr3gaz`](https://explorer.solana.com/tx/Bz99BrEwk89RoJtDCFtRVhuFkEBLF2yShWMpVd8nbUpJCKtnQf1LmmrTcJb79b5NFdqFxhZxaPpKByKohdr3gaz)
 - **Web UI & Telemetry**: `https://gacha-protocol-628421927095.us-central1.run.app`
 
